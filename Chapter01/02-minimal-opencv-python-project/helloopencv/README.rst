@@ -49,5 +49,5 @@ Release History
 *****************
 Meta
 *****************
-Alberto Fernandez  – [@YourTwitter](https://twitter.com/dbader_org) – YourEmail@example.com
+Alberto Fernandez  â€“ YourEmail@example.com
 Distributed under the MIT license. See ``LICENSE`` for more information.
