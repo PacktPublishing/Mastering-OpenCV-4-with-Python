@@ -49,5 +49,5 @@ Release History
 *****************
 Meta
 *****************
-Alberto Fernandez  – YourEmail@example.com
+Alberto Fernandez  – fernandezvillan.alberto@gmail.com
 Distributed under the MIT license. See ``LICENSE`` for more information.
