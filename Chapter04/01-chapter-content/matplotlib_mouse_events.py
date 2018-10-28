@@ -1,3 +1,8 @@
+"""
+Example to show how to capture mouse events with matplotlib to draw a circle
+"""
+
+# Import required packages:
 import cv2
 import numpy as np
 import matplotlib as mpl
