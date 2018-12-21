@@ -22,9 +22,6 @@ else:
         print("Something went wrong. Recalibrate the camera")
         exit()
 
-# Load the image overlay:
-overlay = cv2.imread("tree_overlay.png")
-
 
 def draw_points(img, pts):
     """ Draw the points in the image"""
