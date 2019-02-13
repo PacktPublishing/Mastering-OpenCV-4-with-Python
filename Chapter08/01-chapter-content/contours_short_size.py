@@ -52,7 +52,8 @@ show_img_with_matplotlib(image, "image", 1)
 ret, thresh = cv2.threshold(gray_image, 50, 255, cv2.THRESH_BINARY)
 
 # Find contours using the thresholded image:
-im2, contours, hierarchy = cv2.findContours(thresh, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_NONE)
+# Note: cv2.findContours() has been changed to return only the contours and the hierarchy
+contours, hierarchy = cv2.findContours(thresh, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_NONE)
 
 # Show the number of detected contours:
 print("detected contours: '{}' ".format(len(contours)))

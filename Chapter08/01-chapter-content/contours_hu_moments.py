@@ -56,7 +56,8 @@ HuM = cv2.HuMoments(M)
 print("Hu moments: '{}'".format(HuM))
 
 # Find contours in the thresholded image:
-im, contours, hierarchy = cv2.findContours(thresh, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_NONE)
+# Note: cv2.findContours() has been changed to return only the contours and the hierarchy
+contours, hierarchy = cv2.findContours(thresh, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_NONE)
 
 # Compute moments:
 M2 = cv2.moments(contours[0])

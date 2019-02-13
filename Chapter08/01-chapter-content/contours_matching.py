@@ -55,8 +55,9 @@ ret, thresh = cv2.threshold(gray_image, 70, 255, cv2.THRESH_BINARY_INV)
 ret, thresh_circle = cv2.threshold(gray_image_circle, 70, 255, cv2.THRESH_BINARY)
 
 # Find contours using the thresholded images:
-im, contours, hierarchy = cv2.findContours(thresh, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_NONE)
-im_2, contours_circle, hierarchy_2 = cv2.findContours(thresh_circle, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_NONE)
+# Note: cv2.findContours() has been changed to return only the contours and the hierarchy
+contours, hierarchy = cv2.findContours(thresh, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_NONE)
+contours_circle, hierarchy_2 = cv2.findContours(thresh_circle, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_NONE)
 
 # Copy three images to show the results:
 result_1 = image.copy()

@@ -91,7 +91,8 @@ gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 ret, thresh = cv2.threshold(gray_image, 20, 255, cv2.THRESH_BINARY)
 
 # Find contours using the thresholded image:
-im, contours, hierarchy = cv2.findContours(thresh, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_NONE)
+# Note: cv2.findContours() has been changed to return only the contours and the hierarchy
+contours, hierarchy = cv2.findContours(thresh, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_NONE)
 
 # Show the number of detected contours:
 print("detected contours: '{}' ".format(len(contours)))
