@@ -8,6 +8,8 @@ import dlib
 
 
 def draw_text_info():
+    """Draw text information"""
+
     # We set the position to be used for drawing text and the menu info:
     menu_pos = (10, 20)
     menu_pos_2 = (10, 40)
