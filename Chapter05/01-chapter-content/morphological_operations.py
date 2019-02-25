@@ -1,4 +1,8 @@
-# import the necessary packages
+"""
+Morphological operations
+"""
+
+# Import required packages:
 import cv2
 import matplotlib.pyplot as plt
 import os
