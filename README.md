@@ -26,8 +26,8 @@ Make sure that the version numbers of your installed packages are equal to, or g
 ```
 pip install opencv-contrib-python==4.0.0.21
 ```
-   - It should be noted that OpenCV requires: numpy 
-   - numpy-1.16.1 has been installed when installing opencv-contrib-python==4.0.0.21
+   It should be noted that OpenCV requires: ``numpy`` 
+   ``numpy-1.16.1`` has been installed when installing opencv-contrib-python==4.0.0.21
 
  * Install matplotlib:
  
