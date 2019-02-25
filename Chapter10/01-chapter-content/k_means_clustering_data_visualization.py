@@ -4,7 +4,6 @@ K-means clustering data visualization (introduction to k-means clustering algori
 
 # Import required packages:
 import numpy as np
-import cv2
 from matplotlib import pyplot as plt
 
 # Create data (three different 'clusters' of points (it should be of np.float32 data type):

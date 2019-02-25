@@ -6,8 +6,6 @@ training/testing images with pre-processing of the images
 # Import required packages:
 import cv2
 import numpy as np
-import matplotlib.pyplot as plt
-from collections import defaultdict
 
 # Constants:
 SIZE_IMAGE = 20

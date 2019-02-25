@@ -59,7 +59,6 @@ def get_accuracy(predictions, labels):
 def raw_pixels(img):
     """Return raw pixels as feature from the image"""
 
-    # img = cv2.resize(img, None, fx=0.5, fy=0.5, interpolation=cv2.INTER_AREA)
     return img.flatten()
 
 

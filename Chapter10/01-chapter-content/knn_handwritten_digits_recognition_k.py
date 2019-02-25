@@ -44,6 +44,7 @@ def get_accuracy(predictions, labels):
 
 def raw_pixels(img):
     """Return raw pixels as feature from the image"""
+
     return img.flatten()
 
 
