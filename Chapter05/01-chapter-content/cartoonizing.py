@@ -1,6 +1,6 @@
-"""""
+"""
 Cartoonizing images using both custom and OpenCV functions
-"""""
+"""
 
 # Import required packages:
 import cv2
@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 def show_with_matplotlib(color_img, title, pos):
     """Shows an image using matplotlib capabilities"""
 
-    # Convert BGR image to RGB
+    # Convert BGR image to RGB:
     img_RGB = color_img[:, :, ::-1]
 
     ax = plt.subplot(2, 4, pos)
@@ -22,13 +22,13 @@ def show_with_matplotlib(color_img, title, pos):
 def sketch_image(img):
     """Sketches the image applying a laplacian operator to detect the edges"""
 
-    # convert to gray scale
+    # Convert to gray scale
     img_gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
-    # apply median filter
+    # Apply median filter
     img_gray = cv2.medianBlur(img_gray, 5)
 
-    # detect edges using cv2.Laplacian()
+    # Detect edges using cv2.Laplacian()
     edges = cv2.Laplacian(img_gray, cv2.CV_8U, ksize=5)
 
     # Threshold the edges image:
