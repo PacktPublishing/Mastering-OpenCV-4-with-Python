@@ -1,6 +1,6 @@
-"""""
+"""
 Comparing different kernels using cv2.filter2D()
-"""""
+"""
 
 # Import required packages:
 import cv2
