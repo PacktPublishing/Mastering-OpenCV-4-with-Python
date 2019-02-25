@@ -93,5 +93,10 @@ while True:
     # We get the image with the static information:
     image = image_original.copy()
 
-    # A wait of 500 milliseconds is performed (to see the displayed image):
-    cv2.waitKey(500)
+    # A wait of 500 milliseconds is performed (to see the displayed image)
+    # Press q on keyboard to exit the program:
+    if cv2.waitKey(500) & 0xFF == ord('q'):
+        break
+
+# Release everything:
+cv2.destroyAllWindows()
