@@ -2,14 +2,15 @@
 Example to introduce how to read a video file backwards and save it
 """
 
-# Import the required packages
+# Import the required packages:
 import cv2
 import argparse
 
-def decode_fourcc(fourcc):
-    """Decodes the fourcc value to get the four chars identifying it
 
-    """
+def decode_fourcc(fourcc):
+    """Decodes the fourcc value to get the four chars identifying it"""
+
+    # Convert to int:
     fourcc_int = int(fourcc)
 
     # We print the int value of fourcc
@@ -54,13 +55,12 @@ print("codec: '{}'".format(codec))
 # FourCC is a 4-byte code used to specify the video codec and it is platform dependent!
 fourcc = cv2.VideoWriter_fourcc(*codec)
 
-
 # Create VideoWriter object. We use the same properties as the input camera.
 # Last argument is False to write the video in grayscale. True otherwise (write the video in color)
 out = cv2.VideoWriter(args.output_video_path, fourcc, int(fps), (int(frame_width), int(frame_height)), True)
 
 # Check if camera opened successfully
-if capture.isOpened()is False:
+if capture.isOpened() is False:
     print("Error opening video stream or file")
 
 # We get the index of the last frame of the video file
@@ -98,14 +98,14 @@ while capture.isOpened() and frame_index >= 0:
 
         frame_index = frame_index - 1
         # print("next index to read: '{}'".format(frame_index))
- 
+
         # Press q on keyboard to exit the program:
         if cv2.waitKey(25) & 0xFF == ord('q'):
             break
     # Break the loop
     else:
         break
- 
+
 # Release everything:
 capture.release()
 out.release()
