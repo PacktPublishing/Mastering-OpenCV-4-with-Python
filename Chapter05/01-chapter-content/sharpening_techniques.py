@@ -1,6 +1,6 @@
-"""""
+"""
 Comparing different methods for sharpening images
-"""""
+"""
 
 # Import required packages:
 import cv2
