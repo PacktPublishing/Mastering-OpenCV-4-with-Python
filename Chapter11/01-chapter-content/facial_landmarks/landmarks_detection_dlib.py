@@ -146,12 +146,13 @@ while True:
         # Draw left eye, right eye and bridge shape points and positions
         # draw_shape_points_pos_range(shape, frame, LEFT_EYE_POINTS + RIGHT_EYE_POINTS + NOSE_BRIDGE_POINTS)
 
-        # Display the resulting frame
-        cv2.imshow("Landmarks detection using dlib", frame)
+    # Display the resulting frame
+    cv2.imshow("Landmarks detection using dlib", frame)
 
-        # Press any key to exit
-        if cv2.waitKey(1) & 0xFF == ord('q'):
-            break
+    # Press any key to exit
+    if cv2.waitKey(1) & 0xFF == ord('q'):
+        break
+
 
 # Release everything:
 video_capture.release()
