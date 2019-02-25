@@ -78,8 +78,9 @@ pip install cvlib==0.1.8
 pip install requests==2.21.0
 ```
 
-* It should be noted that requests requires: urllib3, chardet, certifi, idna
-* urllib3-1.24.1, chardet-3.0.4, certifi-2018.11.29, idna-2.8 have been installed when installing requests==2.21.0
+It should be noted that requests requires: ``urllib3 chardet certifi idna``
+
+``urllib3-1.24.1 chardet-3.0.4 certifi-2018.11.29 idna-2.8`` have been installed when installing ``requests==2.21.0``
 
  * Install progressbar:
 ```
@@ -91,24 +92,27 @@ pip install progressbar==2.5
 ```
 pip install keras==2.2.4
 ``` 
-* It should be noted that face-recognition requires: numpy, six, h5py, keras-applications, scipy, keras-preprocessing, pyyaml
-* h5py-2.9.0 keras-applications-1.0.7 keras-preprocessing-1.0.9 numpy-1.16.1 pyyaml-3.13 scipy-1.2.1 six-1.12.0 have been installed when installing keras==2.2.4
+It should be noted that face-recognition requires: ``numpy six h5py keras-applications scipy keras-preprocessing pyyaml``
+
+``h5py-2.9.0 keras-applications-1.0.7 keras-preprocessing-1.0.9 numpy-1.16.1 pyyaml-3.13 scipy-1.2.1 six-1.12.0`` have been installed when installing ``keras==2.2.4``
 
  * Install tensorflow:
  
 ```
 pip install tensorflow==1.12.0 
 ```
-* It should be noted that tensorflow requires: termcolor, numpy, wheel, gast, six, setuptools, protobuf, markdown, grpcio, werkzeug, tensorboard, absl-py, h5py, keras-applications, keras-preprocessing, astor.
-* termcolor-1.1.0 numpy-1.16.1  wheel-0.33.1 gast-0.2.2 six-1.12.0 setuptools-40.8.0 protobuf-3.6.1 markdown-3.0.1 grpcio-1.18.0 werkzeug-0.14.1 tensorboard-1.12.2 absl-py-0.7.0 h5py-2.9.0 keras-applications-1.0.7 keras-preprocessing-1.0.9 astor-0.7.1 have been installed when installing tensorflow==1.12.0
+It should be noted that tensorflow requires: ``termcolor numpy wheel gast six setuptools protobuf markdown grpcio werkzeug tensorboard absl-py h5py keras-applications keras-preprocessing, astor``
+
+``termcolor-1.1.0 numpy-1.16.1  wheel-0.33.1 gast-0.2.2 six-1.12.0 setuptools-40.8.0 protobuf-3.6.1 markdown-3.0.1 grpcio-1.18.0 werkzeug-0.14.1 tensorboard-1.12.2 absl-py-0.7.0 h5py-2.9.0 keras-applications-1.0.7 keras-preprocessing-1.0.9 astor-0.7.1`` have been installed when installing ``tensorflow==1.12.0``
 
  * Install flask:
 ```
 pip install flask==1.0.2
 ```
 
-* It should be noted that flask requires: Werkzeug, click, itsdangerous, MarkupSafe, Jinja2
-* Jinja2-2.10 MarkupSafe-1.1.1 Werkzeug-0.14.1 click-7.0 flask-1.0.2 itsdangerous-1.1.0 have been installed when installing flask==1.0.2
+It should be noted that flask requires: ``Werkzeug click itsdangerous MarkupSafe Jinja2``
+
+``Jinja2-2.10 MarkupSafe-1.1.1 Werkzeug-0.14.1 click-7.0 flask-1.0.2 itsdangerous-1.1.0`` have been installed when installing ``flask==1.0.2``
 
 The hardware specifications are as follows:
 
