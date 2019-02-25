@@ -6,7 +6,7 @@ Example to show how to draw basic shapes and mouse events with OpenCV
 import cv2
 import numpy as np
 
-# Dictionary containing some colors
+# Dictionary containing some colors:
 colors = {'blue': (255, 0, 0), 'green': (0, 255, 0), 'red': (0, 0, 255), 'yellow': (0, 255, 255),
           'magenta': (255, 0, 255), 'cyan': (255, 255, 0), 'white': (255, 255, 255), 'black': (0, 0, 0),
           'gray': (125, 125, 125), 'rand': np.random.randint(0, high=256, size=(3,)).tolist(),
@@ -32,6 +32,8 @@ def draw_text():
 
 # mouse callback function
 def draw_circle(event, x, y, flags, param):
+    """Mouse callback function"""
+
     global circles
     if event == cv2.EVENT_LBUTTONDBLCLK:
         # Add the circle with coordinates x,y
@@ -60,13 +62,13 @@ def draw_circle(event, x, y, flags, param):
 circles = []
 
 # We create the canvas to draw: 600 x 600 pixels, 3 channels, uint8 (8-bit unsigned integers)
-# We set the background to black using np.zeros()
+# We set the background to black using np.zeros():
 image = np.zeros((600, 600, 3), dtype="uint8")
 
-# We create a named window where the mouse callback will be established
+# We create a named window where the mouse callback will be established:
 cv2.namedWindow('Image mouse')
 
-# We set the mouse callback function to 'draw_circle'
+# We set the mouse callback function to 'draw_circle':
 cv2.setMouseCallback('Image mouse', draw_circle)
 
 # We draw the menu:
@@ -80,7 +82,7 @@ while True:
     # We 'reset' the image (to get only the image with the printed text):
     image = clone.copy()
 
-    # We draw now only the current circles
+    # We draw now only the current circles:
     for pos in circles:
         # We print the circle (filled) with a  fixed radius (30):
         cv2.circle(image, pos, 30, colors['blue'], -1)
@@ -88,7 +90,7 @@ while True:
     # Show image 'Image mouse':
     cv2.imshow('Image mouse', image)
 
-    # Continue until 'q' is pressed
+    # Continue until 'q' is pressed:
     if cv2.waitKey(400) & 0xFF == ord('q'):
         break
 
