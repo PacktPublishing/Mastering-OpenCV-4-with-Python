@@ -4,7 +4,6 @@ Example to introduce how to read a video file and get all properties
 
 # Import the required packages
 import cv2
-import numpy as np
 import argparse
 
 
