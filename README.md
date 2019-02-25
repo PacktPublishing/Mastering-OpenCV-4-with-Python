@@ -27,6 +27,7 @@ Make sure that the version numbers of your installed packages are equal to, or g
 pip install opencv-contrib-python==4.0.0.21
 ```
 It should be noted that OpenCV requires: ``numpy`` 
+
 ``numpy-1.16.1`` has been installed when installing ``opencv-contrib-python==4.0.0.21`` 
 
  * Install matplotlib:
@@ -34,8 +35,9 @@ It should be noted that OpenCV requires: ``numpy``
 ```
 pip install matplotlib==3.0.2
 ```
-* It should be noted that matplotlib requires: kiwisolver, pyparsing, six, cycler, python-dateutil
-* cycler-0.10.0 kiwisolver-1.0.1  pyparsing-2.3.1 python-dateutil-2.8.0 six-1.12.0 have been installed when installing matplotlib==3.0.2
+It should be noted that matplotlib requires: ``kiwisolver pyparsing six cycler python-dateutil``
+
+``cycler-0.10.0 kiwisolver-1.0.1  pyparsing-2.3.1 python-dateutil-2.8.0 six-1.12.0`` have been installed when installing matplotlib==3.0.2
 
  * Install scikit-image:
 ```
