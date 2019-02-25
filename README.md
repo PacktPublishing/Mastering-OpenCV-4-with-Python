@@ -2,6 +2,7 @@
 
 This is the code repository for Mastering OpenCV 4 with Python, published by Packt. It contains all the supporting project files necessary to work through the book from the first Chapter to the last one.
 
+## Code Testing Specifications
 Mastering OpenCV 4 with Python requires some installed packages, which you can see next.
 
 * Chapter01: opencv-contrib-python
@@ -113,6 +114,7 @@ It should be noted that flask requires: ``Werkzeug click itsdangerous MarkupSafe
 
 ``Jinja2-2.10 MarkupSafe-1.1.1 Werkzeug-0.14.1 click-7.0 flask-1.0.2 itsdangerous-1.1.0`` have been installed when installing ``flask==1.0.2``
 
+## Hardware Specifications
 The hardware specifications are as follows:
 
 * Either 32-bit or 64-bit architecture
