@@ -149,7 +149,7 @@ while True:
     # Display the resulting frame
     cv2.imshow("Landmarks detection using dlib", frame)
 
-    # Press any key to exit
+    # Press 'q' key to exit
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 
