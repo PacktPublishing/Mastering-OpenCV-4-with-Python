@@ -3,7 +3,6 @@ Introduction to color spaces in OpenCV
 """
 
 # Import required packages:
-import argparse
 import cv2
 import matplotlib.pyplot as plt
 
@@ -11,7 +10,7 @@ import matplotlib.pyplot as plt
 def show_with_matplotlib(color_img, title, pos):
     """Shows an image using matplotlib capabilities"""
 
-    # Convert BGR image to RGB
+    # Convert BGR image to RGB:
     img_RGB = color_img[:, :, ::-1]
 
     ax = plt.subplot(3, 6, pos)
@@ -20,10 +19,10 @@ def show_with_matplotlib(color_img, title, pos):
     plt.axis('off')
 
 
-# Load and display the original image
+# Load and display the original image:
 image = cv2.imread('color_spaces.png')
 
-# create a figure() object with appropriate size and title
+# create a figure() object with appropriate size and title:
 plt.figure(figsize=(12, 5))
 plt.suptitle("Color spaces in OpenCV", fontsize=14, fontweight='bold')
 
