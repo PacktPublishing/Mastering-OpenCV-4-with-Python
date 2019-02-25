@@ -5,7 +5,6 @@ Example to show how to capture mouse events with matplotlib to draw a circle
 # Import required packages:
 import cv2
 import numpy as np
-import matplotlib as mpl
 import matplotlib.pyplot as plt
 
 colors = {'blue': (255, 0, 0), 'green': (0, 255, 0), 'red': (0, 0, 255), 'yellow': (0, 255, 255),
@@ -14,7 +13,7 @@ colors = {'blue': (255, 0, 0), 'green': (0, 255, 0), 'red': (0, 0, 255), 'yellow
           'dark_gray': (50, 50, 50), 'light_gray': (220, 220, 220)}
 
 # We create the canvas to draw: 400 x 400 pixels, 3 channels, uint8 (8-bit unsigned integers)
-# We set the background to black using np.zeros()
+# We set the background to black using np.zeros():
 image = np.zeros((400, 400, 3), dtype="uint8")
 
 # If you want another background color you can do the following:
@@ -22,10 +21,9 @@ image[:] = colors['light_gray']
 
 
 def update_img_with_matplotlib():
-    """Updates an image using matplotlib capabilities
+    """Updates an image using matplotlib capabilities"""
 
-    """
-    # Convert BGR to RGB image format
+    # Convert BGR to RGB image format:
     img_RGB = image[:, :, ::-1]
 
     # Display the image:
@@ -37,7 +35,7 @@ def update_img_with_matplotlib():
 
 # We define the event listener for the 'button_press_event':
 def click_mouse_event(event):
-    # (event.xdata, event.ydata) contains the float coordinates of the mouse click event:
+    # (event.xdata, event.ydata) contain the float coordinates of the mouse click event:
     cv2.circle(image, (int(round(event.xdata)), int(round(event.ydata))), 30, colors['blue'], cv2.FILLED)
     # Call 'update_image()' method to update the Figure:
     update_img_with_matplotlib()
