@@ -2,12 +2,13 @@
 Hu moments calculation
 """
 
+# Import required packages:
 import cv2
 from matplotlib import pyplot as plt
 
 
 def centroid(moments):
-    """Returns centroid based on momments"""
+    """Returns centroid based on moments"""
 
     x_centroid = round(moments['m10'] / moments['m00'])
     y_centroid = round(moments['m01'] / moments['m00'])
@@ -31,6 +32,7 @@ def show_img_with_matplotlib(color_img, title, pos):
     plt.imshow(img_RGB)
     plt.title(title)
     plt.axis('off')
+
 
 # Create the dimensions of the figure and set title:
 fig = plt.figure(figsize=(12, 5))

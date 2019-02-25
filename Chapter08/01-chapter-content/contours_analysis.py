@@ -2,12 +2,13 @@
 Contours analysis based mainly on moments
 """
 
+# Import required packages:
 import numpy as np
 import cv2
 from matplotlib import pyplot as plt
 
 
-# the aspect ratio is defined as: Width/Height
+# the aspect ratio is defined as: width/height
 def aspect_ratio(contour):
     """Returns the aspect ratio of the contour based on the dimensions of the bounding rect"""
 

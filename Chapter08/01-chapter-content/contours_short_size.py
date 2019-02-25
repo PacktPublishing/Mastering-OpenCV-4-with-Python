@@ -2,6 +2,7 @@
 Ordering contours based on the size
 """
 
+# Import required packages:
 import cv2
 from matplotlib import pyplot as plt
 

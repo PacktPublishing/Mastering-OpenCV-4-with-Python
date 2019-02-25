@@ -2,6 +2,7 @@
 Introduction to contours (1)
 """
 
+# Import required packages:
 import numpy as np
 import cv2
 from matplotlib import pyplot as plt
