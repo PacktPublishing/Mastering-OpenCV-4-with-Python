@@ -3,9 +3,6 @@ Example to show how to get the values for the hour markings to build the clock
 """
 
 # Import required packages:
-import cv2
-import numpy as np
-import datetime
 import math
 
 radius = 300
