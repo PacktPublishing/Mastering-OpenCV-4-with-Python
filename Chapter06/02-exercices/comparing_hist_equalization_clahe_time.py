@@ -2,7 +2,7 @@
 Comparing grayscale histogram equalization and CLAHE with execution time
 """
 
-import numpy as np
+# Import required packages:
 import cv2
 from matplotlib import pyplot as plt
 from timeit import default_timer as timer

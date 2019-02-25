@@ -2,6 +2,7 @@
 Introduction to grayscale histogram equalization
 """
 
+# Import required packages:
 import numpy as np
 import cv2
 from matplotlib import pyplot as plt
@@ -32,7 +33,7 @@ def show_hist_with_matplotlib_gray(hist, title, pos, color):
 
 # Create the dimensions of the figure and set title:
 plt.figure(figsize=(18, 14))
-plt.suptitle("Grayscale histogram equalization with cv2.calcHist()", fontsize=16, fontweight='bold')
+plt.suptitle("Grayscale histogram equalization with cv2.equalizeHist()", fontsize=16, fontweight='bold')
 
 # Load the image and convert it to grayscale:
 image = cv2.imread('lenna.png')

@@ -2,6 +2,7 @@
 Color histogram equalization using the HSV color space
 """
 
+# Import required packages:
 import numpy as np
 import cv2
 from matplotlib import pyplot as plt
@@ -55,7 +56,7 @@ def equalize_hist_color_hsv(img):
 
 # Create the dimensions of the figure and set title:
 plt.figure(figsize=(18, 14))
-plt.suptitle("Color histogram equalization with cv2.calcHist() in the V channel", fontsize=14, fontweight='bold')
+plt.suptitle("Color histogram equalization with cv2.equalizeHist() in the V channel", fontsize=14, fontweight='bold')
 
 # Load the original image and convert it to grayscale
 image = cv2.imread('lenna.png')

@@ -2,6 +2,7 @@
 Comparing grayscale histogram equalization and CLAHE
 """
 
+# Import required packages:
 import cv2
 from matplotlib import pyplot as plt
 

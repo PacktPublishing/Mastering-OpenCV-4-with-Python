@@ -2,7 +2,7 @@
 Grayscale histogram comparison
 """
 
-import numpy as np
+# Import required packages:
 import cv2
 from matplotlib import pyplot as plt
 import os
