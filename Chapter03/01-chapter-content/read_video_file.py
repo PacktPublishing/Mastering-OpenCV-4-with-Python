@@ -4,7 +4,6 @@ Example to introduce how to read a video file
 
 # Import the required packages
 import cv2
-import numpy as np
 import argparse
 
 # We first create the ArgumentParser object
