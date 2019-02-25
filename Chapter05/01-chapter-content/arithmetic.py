@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 def show_with_matplotlib(color_img, title, pos):
     """Shows an image using matplotlib capabilities"""
 
-    # Convert BGR image to RGB
+    # Convert BGR image to RGB:
     img_RGB = color_img[:, :, ::-1]
 
     ax = plt.subplot(2, 3, pos)
@@ -34,7 +34,7 @@ added_image = cv2.add(image, M)
 # Subtract 60 from every pixel. The result will look darker:
 subtracted_image = cv2.subtract(image, M)
 
-# Additionally, we can build an scalar and add/substract it:
+# Additionally, we can build an scalar and add/subtract it:
 scalar = np.ones((1, 3), dtype="float") * 110
 added_image_2 = cv2.add(image, scalar)
 subtracted_image_2 = cv2.subtract(image, scalar)
