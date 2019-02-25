@@ -2,7 +2,7 @@
 Example to introduce how to read a video file backwards
 """
 
-# Import the required packages
+# Import the required packages:
 import cv2
 import argparse
 
@@ -20,21 +20,21 @@ args = parser.parse_args()
 # If the input is the camera, pass 0 instead of the video file name
 capture = cv2.VideoCapture(args.video_path)
 
-# Check if camera opened successfully
+# Check if camera opened successfully:
 if capture.isOpened()is False:
     print("Error opening video stream or file")
 
-# We get the index of the last frame of the video file
+# We get the index of the last frame of the video file:
 frame_index = capture.get(cv2.CAP_PROP_FRAME_COUNT) - 1
 print("starting in frame: '{}'".format(frame_index))
 
-# Read until video is completed
+# Read until video is completed:
 while capture.isOpened() and frame_index >= 0:
 
-    # We set the current frame position
+    # We set the current frame position:
     capture.set(cv2.CAP_PROP_POS_FRAMES, frame_index)
 
-    # Capture frame-by-frame from the video file
+    # Capture frame-by-frame from the video file:
     ret, frame = capture.read()
 
     if ret is True:
@@ -45,16 +45,16 @@ while capture.isOpened() and frame_index >= 0:
         # Get the timestamp of the current frame in milliseconds
         # print("CAP_PROP_POS_MSEC : '{}'".format(capture.get(cv2.CAP_PROP_POS_MSEC)))
 
-        # Display the resulting frame
+        # Display the resulting frame:
         cv2.imshow('Original frame', frame)
 
         # Convert the frame to grayscale:
         gray_frame = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
 
-        # Display the grayscale frame
+        # Display the grayscale frame:
         cv2.imshow('Grayscale frame', gray_frame)
 
-        # Decrement the index to read next frame
+        # Decrement the index to read next frame:
         frame_index = frame_index - 1
         print("next index to read: '{}'".format(frame_index))
  
