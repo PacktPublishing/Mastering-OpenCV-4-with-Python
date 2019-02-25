@@ -37,21 +37,23 @@ pip install matplotlib==3.0.2
 ```
 It should be noted that matplotlib requires: ``kiwisolver pyparsing six cycler python-dateutil``
 
-``cycler-0.10.0 kiwisolver-1.0.1  pyparsing-2.3.1 python-dateutil-2.8.0 six-1.12.0`` have been installed when installing matplotlib==3.0.2
+``cycler-0.10.0 kiwisolver-1.0.1  pyparsing-2.3.1 python-dateutil-2.8.0 six-1.12.0`` have been installed when installing ``matplotlib==3.0.2``
 
  * Install scikit-image:
 ```
 pip install scikit-image==0.14.2
 ```
-* It should be noted that scikit-image requires: cloudpickle, decorator, networkx, numpy, toolz, dask, pillow, PyWavelets, six
-* PyWavelets-1.0.1 cloudpickle-0.8.0 dask-1.1.1 decorator-4.3.2 networkx-2.2 numpy-1.16.1 pillow-5.4.1 scikit-image-0.14.2 six-1.12.0 toolz-0.9.0 have been installed when installing scikit-image==0.14.2
+It should be noted that scikit-image requires: ``cloudpickle decorator networkx numpy toolz dask pillow PyWavelets six``
+
+``PyWavelets-1.0.1 cloudpickle-0.8.0 dask-1.1.1 decorator-4.3.2 networkx-2.2 numpy-1.16.1 pillow-5.4.1 scikit-image-0.14.2 six-1.12.0 toolz-0.9.0`` have been installed when installing ``scikit-image==0.14.2``
 
  * Install scipy:
 ```
 pip install scipy==1.2.1 
 ```
-* It should be noted that scipy requires: numpy
-* numpy-1.16.1 has been installed when installing scipy==1.2.1
+It should be noted that scipy requires: ``numpy``
+
+``numpy-1.16.1`` has been installed when installing ``scipy==1.2.1``
 
  * Install dlib:
 ```
@@ -62,8 +64,9 @@ pip install dlib==19.8.1
 ```
 pip install face-recognition==1.2.3
 ```
-* It should be noted that face-recognition requires: dlib, Click, numpy, face-recognition-models, pillow
-* dlib-19.8.1 Click-7.0 face-recognition-models-0.3.0 pillow-5.4.1 have been installed when installing face-recognition==1.2.3
+It should be noted that face-recognition requires: ``dlib Click numpy face-recognition-models pillow``
+
+``dlib-19.8.1 Click-7.0 face-recognition-models-0.3.0 pillow-5.4.1`` have been installed when installing ``face-recognition==1.2.3``
 
  * Install cvlib:
 ```
