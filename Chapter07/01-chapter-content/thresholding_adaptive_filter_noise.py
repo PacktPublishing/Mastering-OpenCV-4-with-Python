@@ -2,7 +2,7 @@
 Adaptive thresholding filtering the noise in the input image applying a bilateral filter
 """
 
-import numpy as np
+# Import required packages:
 import cv2
 from matplotlib import pyplot as plt
 

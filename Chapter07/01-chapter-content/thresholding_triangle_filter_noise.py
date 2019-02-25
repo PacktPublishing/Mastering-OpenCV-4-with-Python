@@ -2,6 +2,7 @@
 Triangle thresholding filtering noise applying a Gaussian filter
 """
 
+# Import required packages:
 import cv2
 from matplotlib import pyplot as plt
 
