@@ -2,15 +2,15 @@
 Example to introduce how to read a video file and get all properties
 """
 
-# Import the required packages
+# Import the required packages:
 import cv2
 import argparse
 
 
 def decode_fourcc(fourcc):
-    """Decodes the fourcc value to get the four chars identifying it
+    """Decodes the fourcc value to get the four chars identifying it"""
 
-    """
+    # Convert to int:
     fourcc_int = int(fourcc)
 
     # We print the int value of fourcc
@@ -25,6 +25,7 @@ def decode_fourcc(fourcc):
         print("int_value: '{}'".format(int_value))
         fourcc_decode += chr(int_value)
     return fourcc_decode
+
 
 # We first create the ArgumentParser object
 # The created object 'parser' will have the necessary information
@@ -60,9 +61,8 @@ print("CAP_PROP_ISO_SPEED : '{}'".format(capture.get(cv2.CAP_PROP_ISO_SPEED)))
 print("CAP_PROP_BUFFERSIZE : '{}'".format(capture.get(cv2.CAP_PROP_BUFFERSIZE)))
 
 # Check if camera opened successfully
-if capture.isOpened()is False:
+if capture.isOpened() is False:
     print("Error opening video stream or file")
-
 
 # Read until video is completed
 while capture.isOpened():
@@ -85,14 +85,14 @@ while capture.isOpened():
 
         # Display the grayscale frame
         cv2.imshow('Grayscale frame', gray_frame)
- 
-        # Press Q on keyboard to  exit
+
+        # Press q on keyboard to  exit
         if cv2.waitKey(25) & 0xFF == ord('q'):
             break
     # Break the loop
     else:
         break
- 
-# Release everything
+
+# Release everything:
 capture.release()
 cv2.destroyAllWindows()
