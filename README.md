@@ -19,15 +19,15 @@ Mastering OpenCV 4 with Python requires some installed packages, which you can s
 * Chapter12: opencv-contrib-python, matplotlib, tensorflow, keras
 * Chapter13: opencv-contrib-python, matplotlib, flask, tensorflow, keras, requests, pillow
 
-Make sure that the version numbers of your installed packages are equal to, or greater than, those versions to ensure the code examples run correctly. If you want to install the exact versions this book was tested on, include the version when installing from pip.
+Make sure that the version numbers of your installed packages are equal to, or greater than, versions specified below to ensure the code examples run correctly. If you want to install the exact versions this book was tested on, include the version when installing from pip.
 
 * Install opencv-contrib-python:
 
 ```
 pip install opencv-contrib-python==4.0.0.21
 ```
-   It should be noted that OpenCV requires: ``numpy`` 
-   ``numpy-1.16.1`` has been installed when installing opencv-contrib-python==4.0.0.21
+It should be noted that OpenCV requires: ``numpy`` 
+``numpy-1.16.1`` has been installed when installing ``opencv-contrib-python==4.0.0.21`` 
 
  * Install matplotlib:
  
