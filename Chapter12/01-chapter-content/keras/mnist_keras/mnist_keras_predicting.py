@@ -2,6 +2,7 @@
 Using a pre-trained Neural Network for predicting new handwritten digits in 'OpenCV images' using Keras
 """
 
+# Import required packages:
 import keras
 from keras.datasets import mnist
 from keras.layers import Dense

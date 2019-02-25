@@ -2,6 +2,7 @@
 Training Neural Network model using MNIST Dataset and saving the created model in Keras
 """
 
+# Import required packages:
 import keras
 from keras.datasets import mnist
 from keras.layers import Dense
