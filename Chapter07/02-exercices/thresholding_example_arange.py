@@ -2,6 +2,7 @@
 Simple thresholding applied to a real image using np.arange() to create the different threshold values
 """
 
+# Import required packages:
 import numpy as np
 import cv2
 from matplotlib import pyplot as plt
@@ -21,7 +22,7 @@ def show_img_with_matplotlib(color_img, title, pos):
 
 # Create the dimensions of the figure and set title and color:
 fig = plt.figure(figsize=(9, 9))
-plt.suptitle("Thresholding example", fontsize=14, fontweight='bold')
+plt.suptitle("Thresholding using np.arange() to create the different threshold values", fontsize=14, fontweight='bold')
 fig.patch.set_facecolor('silver')
 
 # Load the image and convert it to grayscale:
