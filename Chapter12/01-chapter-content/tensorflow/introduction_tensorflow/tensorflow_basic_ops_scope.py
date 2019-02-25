@@ -8,9 +8,6 @@ import tensorflow as tf
 # Path to the folder that we want to save the logs for Tensorboard:
 logs_path = "./logs"
 
-# TensorFlow version: 1.12.0
-print("tensorflow version: {}".format(tf.__version__))
-
 # Define placeholders:
 X_1 = tf.placeholder(tf.int16, name="X_1")
 X_2 = tf.placeholder(tf.int16, name="X_2")
