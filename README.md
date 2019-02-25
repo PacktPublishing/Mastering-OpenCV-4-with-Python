@@ -92,7 +92,7 @@ pip install progressbar==2.5
 ```
 pip install keras==2.2.4
 ``` 
-It should be noted that face-recognition requires: ``numpy six h5py keras-applications scipy keras-preprocessing pyyaml``
+It should be noted that keras requires: ``numpy six h5py keras-applications scipy keras-preprocessing pyyaml``
 
 ``h5py-2.9.0 keras-applications-1.0.7 keras-preprocessing-1.0.9 numpy-1.16.1 pyyaml-3.13 scipy-1.2.1 six-1.12.0`` have been installed when installing ``keras==2.2.4``
 
