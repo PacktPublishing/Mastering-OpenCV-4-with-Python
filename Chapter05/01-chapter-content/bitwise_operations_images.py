@@ -2,7 +2,6 @@
 Bitwise operations (AND, OR) between two loaded images
 """
 
-import argparse
 import cv2
 import matplotlib.pyplot as plt
 
@@ -10,7 +9,7 @@ import matplotlib.pyplot as plt
 def show_with_matplotlib(color_img, title, pos):
     """Shows an image using matplotlib capabilities"""
 
-    # Convert BGR image to RGB
+    # Convert BGR image to RGB:
     img_RGB = color_img[:, :, ::-1]
 
     ax = plt.subplot(2, 2, pos)
