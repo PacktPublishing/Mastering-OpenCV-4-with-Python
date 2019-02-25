@@ -5,7 +5,6 @@ Example to introduce how to read a camera connected to your computer and show FP
 # Import the required packages
 import cv2
 import argparse
-import datetime
 import time
 
 # We first create the ArgumentParser object
