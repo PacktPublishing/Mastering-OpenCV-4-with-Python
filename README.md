@@ -122,4 +122,7 @@ The hardware specifications are as follows:
 * 4 GB RAM
 * At least 10 GB of hard disk space available
 
+## Related books & products
+* [Deep Learning with Keras](https://www.packtpub.com/big-data-and-business-intelligence/deep-learning-keras?utm_source=github&utm_medium=repository&utm_campaign=9781787128422)
+
 The code for this repository is under development :construction_worker:
