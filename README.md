@@ -123,6 +123,12 @@ The hardware specifications are as follows:
 * At least 10 GB of hard disk space available
 
 ## Related books & products
-* [Deep Learning with Keras](https://www.packtpub.com/big-data-and-business-intelligence/deep-learning-keras?utm_source=github&utm_medium=repository&utm_campaign=9781787128422)
+* [OpenCV Computer Vision with Python](https://www.packtpub.com/application-development/opencv-computer-vision-python)
+* [OpenCV: Computer Vision Projects with Python](https://www.packtpub.com/application-development/opencv-computer-vision-projects-python)
+* [Augmented Reality for Developers](https://www.packtpub.com/web-development/augmented-reality-developers)
+* [Deep Learning with Python and OpenCV](https://www.packtpub.com/big-data-and-business-intelligence/deep-learning-python-and-opencv)
+* [Deep Learning with Keras](https://www.packtpub.com/big-data-and-business-intelligence/deep-learning-keras)
+* [Getting Started with TensorFlow](https://www.packtpub.com/big-data-and-business-intelligence/getting-started-tensorflow)
+* [Mastering Flask Web Development - Second Edition](https://www.packtpub.com/web-development/mastering-flask-web-development-second-edition)
 
 The code for this repository is under development :construction_worker:
