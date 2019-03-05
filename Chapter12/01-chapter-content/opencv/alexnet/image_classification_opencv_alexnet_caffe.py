@@ -1,6 +1,6 @@
 """
 Image classification using OpenCV CNN module using AlexNet and caffe pre-trained models
-(bvlc_alexnet.prototxt not included because exceeds GitHub's file size limit of 100.00 MB)
+(bvlc_alexnet.caffemodel not included because exceeds GitHub's file size limit of 100.00 MB)
 bvlc_alexnet.prototxt: https://github.com/opencv/opencv_extra/blob/master/testdata/dnn/bvlc_alexnet.prototxt
 bvlc_alexnet.caffemodel: http://dl.caffe.berkeleyvision.org/bvlc_alexnet.caffemodel
 """
