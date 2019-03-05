@@ -45,7 +45,7 @@ pip install scikit-image==0.14.2
 ```
 It should be noted that scikit-image requires: ``cloudpickle decorator networkx numpy toolz dask pillow PyWavelets six``
 
-``PyWavelets-1.0.1 cloudpickle-0.8.0 dask-1.1.1 decorator-4.3.2 networkx-2.2 numpy-1.16.1 pillow-5.4.1 scikit-image-0.14.2 six-1.12.0 toolz-0.9.0`` have been installed when installing ``scikit-image==0.14.2``
+``PyWavelets-1.0.1 cloudpickle-0.8.0 dask-1.1.1 decorator-4.3.2 networkx-2.2 numpy-1.16.1 pillow-5.4.1 six-1.12.0 toolz-0.9.0`` have been installed when installing ``scikit-image==0.14.2``
 
  * Install scipy:
 ```
@@ -103,7 +103,7 @@ pip install tensorflow==1.12.0
 ```
 It should be noted that tensorflow requires: ``termcolor numpy wheel gast six setuptools protobuf markdown grpcio werkzeug tensorboard absl-py h5py keras-applications keras-preprocessing, astor``
 
-``termcolor-1.1.0 numpy-1.16.1  wheel-0.33.1 gast-0.2.2 six-1.12.0 setuptools-40.8.0 protobuf-3.6.1 markdown-3.0.1 grpcio-1.18.0 werkzeug-0.14.1 tensorboard-1.12.2 absl-py-0.7.0 h5py-2.9.0 keras-applications-1.0.7 keras-preprocessing-1.0.9 astor-0.7.1`` have been installed when installing ``tensorflow==1.12.0``
+``termcolor-1.1.0 numpy-1.16.1 wheel-0.33.1 gast-0.2.2 six-1.12.0 setuptools-40.8.0 protobuf-3.6.1 markdown-3.0.1 grpcio-1.18.0 werkzeug-0.14.1 tensorboard-1.12.2 absl-py-0.7.0 h5py-2.9.0 keras-applications-1.0.7 keras-preprocessing-1.0.9 astor-0.7.1`` have been installed when installing ``tensorflow==1.12.0``
 
  * Install flask:
 ```
@@ -112,7 +112,7 @@ pip install flask==1.0.2
 
 It should be noted that flask requires: ``Werkzeug click itsdangerous MarkupSafe Jinja2``
 
-``Jinja2-2.10 MarkupSafe-1.1.1 Werkzeug-0.14.1 click-7.0 flask-1.0.2 itsdangerous-1.1.0`` have been installed when installing ``flask==1.0.2``
+``Jinja2-2.10 MarkupSafe-1.1.1 Werkzeug-0.14.1 click-7.0 itsdangerous-1.1.0`` have been installed when installing ``flask==1.0.2``
 
 ## Hardware Specifications
 The hardware specifications are as follows:
