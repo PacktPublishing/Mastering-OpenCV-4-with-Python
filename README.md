@@ -1,6 +1,6 @@
 # Mastering-OpenCV-4-with-Python
 
-This is the code repository for Mastering *OpenCV 4 with Python*, published by *Packt*. It contains all the supporting project files necessary to work through the book from the first Chapter to the last one.
+This is the code repository for Mastering *OpenCV 4 with Python*, published by [Packt Publishing](https://www.packtpub.com/). It contains all the supporting project files necessary to work through the book from the first Chapter to the last one.
 
 ## Code Testing Specifications
 *Mastering OpenCV 4 with Python* requires some installed packages, which you can see next.
