@@ -5,19 +5,19 @@ This is the code repository for Mastering OpenCV 4 with Python, published by Pac
 ## Code Testing Specifications
 Mastering OpenCV 4 with Python requires some installed packages, which you can see next.
 
-* Chapter01: opencv-contrib-python
-* Chapter02: opencv-contrib-python, matplotlib
-* Chapter03: opencv-contrib-python, matplotlib
-* Chapter04: opencv-contrib-python, matplotlib
-* Chapter05: opencv-contrib-python, matplotlib
-* Chapter06: opencv-contrib-python, matplotlib
-* Chapter07: opencv-contrib-python, matplotlib, scikit-image, scipy
-* Chapter08: opencv-contrib-python, matplotlib
-* Chapter09: opencv-contrib-python, matplotlib
-* Chapter10: opencv-contrib-python, matplotlib
-* Chapter11: opencv-contrib-python, matplotlib, dlib, face-recognition, cvlib, requests, progressbar, keras, tensorflow
-* Chapter12: opencv-contrib-python, matplotlib, tensorflow, keras
-* Chapter13: opencv-contrib-python, matplotlib, flask, tensorflow, keras, requests, pillow
+* Chapter01 (Setting Up OpenCV): ``opencv-contrib-python``
+* Chapter02 (Image Basics in OpenCV): ``opencv-contrib-python matplotlib``
+* Chapter03 (Handling Files and Images): ``opencv-contrib-python matplotlib``
+* Chapter04 (Constructing Basic Shapes in OpenCV): ``opencv-contrib-python matplotlib``
+* Chapter05 (Image Processing Techniques): ``opencv-contrib-python matplotlib``
+* Chapter06 (Constructing and Building Histograms): ``opencv-contrib-python matplotlib``
+* Chapter07 (Thresholding Techniques): ``opencv-contrib-python matplotlib scikit-image, scipy``
+* Chapter08 (Contours Detection, Filtering, and Drawing): ``opencv-contrib-python matplotlib``
+* Chapter09 (Augmented Reality): ``opencv-contrib-python matplotlib``
+* Chapter10 (Machine Learning with OpenCV): ``opencv-contrib-python matplotlib``
+* Chapter11 (Face Detection, Tracking, and Recognition): ``opencv-contrib-python matplotlib dlib face-recognition cvlib requests progressbar keras tensorflow``
+* Chapter12 (Introduction to Deep Learning): ``opencv-contrib-python matplotlib tensorflow keras``
+* Chapter13 (Mobile and Web Computer Vision with Python and OpenCV): ``opencv-contrib-python matplotlib flask tensorflow keras requests pillow``
 
 Make sure that the version numbers of your installed packages are equal to, or greater than, versions specified below to ensure the code examples run correctly. If you want to install the exact versions this book was tested on, include the version when installing from pip.
 
