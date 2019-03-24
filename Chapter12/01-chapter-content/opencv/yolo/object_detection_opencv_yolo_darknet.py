@@ -1,5 +1,5 @@
 """
-Object detection using OpenCV CNN module using YOLO V3
+Object detection using OpenCV DNN module using YOLO V3
 
 (YOLOv3: An Incremental Improvement: https://pjreddie.com/media/files/papers/YOLOv3.pdf)
 (yolov3.weights is not included as  exceeds GitHub's file size limit of 100.00 MB)
@@ -100,7 +100,7 @@ if len(indices) > 0:
 
 # Create the dimensions of the figure and set title:
 fig = plt.figure(figsize=(14, 8))
-plt.suptitle("Object detection using OpenCV CNN module and YOLO V3", fontsize=14, fontweight='bold')
+plt.suptitle("Object detection using OpenCV DNN module and YOLO V3", fontsize=14, fontweight='bold')
 fig.patch.set_facecolor('silver')
 
 # Show the output image
