@@ -1,5 +1,5 @@
 """
-Object detection using OpenCV CNN module using MobileNet-SSD and caffe pre-trained models
+Object detection using OpenCV DNN module using MobileNet-SSD and caffe pre-trained models
 
 MobileNetSSD_deploy.caffemodel:
  https://drive.google.com/uc?export=download&id=0B3gersZ2cHIxRm5PMWRoTkdHdHc
@@ -90,7 +90,7 @@ for i in range(detections.shape[2]):
 
 # Create the dimensions of the figure and set title:
 fig = plt.figure(figsize=(14, 8))
-plt.suptitle("Object detection using OpenCV CNN module and MobileNet-SSD", fontsize=14, fontweight='bold')
+plt.suptitle("Object detection using OpenCV DNN module and MobileNet-SSD", fontsize=14, fontweight='bold')
 fig.patch.set_facecolor('silver')
 
 # Show the output image
