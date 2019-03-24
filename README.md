@@ -130,5 +130,3 @@ The hardware specifications are as follows:
 * [Deep Learning with Keras](https://www.packtpub.com/big-data-and-business-intelligence/deep-learning-keras)
 * [Getting Started with TensorFlow](https://www.packtpub.com/big-data-and-business-intelligence/getting-started-tensorflow)
 * [Mastering Flask Web Development - Second Edition](https://www.packtpub.com/web-development/mastering-flask-web-development-second-edition)
-
-The code for this repository is under development :construction_worker:
