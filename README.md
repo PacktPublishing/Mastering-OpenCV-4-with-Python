@@ -2,6 +2,21 @@
 
 This is the code repository for [Mastering OpenCV 4 with Python](https://www.packtpub.com/application-development/mastering-opencv-4-python), published by [Packt Publishing](https://www.packtpub.com/). It contains all the supporting project files necessary to work through the book from the first Chapter to the last one.
 
+## Overview
+[Mastering OpenCV 4 with Python](https://www.packtpub.com/application-development/mastering-opencv-4-python): A practical guide covering topics from image processing, augmented reality to deep learning with OpenCV 4 and Python 3.7
+
+Create advanced applications with Python and OpenCV, exploring the potential of facial recognition, machine learning, deep learning, web computing and augmented reality.
+
+### What You Will Learn
+* Handle files and images, and explore various image processing techniques
+* Explore image transformations, including translation, resizing, and cropping
+* Gain insights into building histograms
+* Brush up on contour detection, filtering, and drawing
+* Work with Augmented Reality to build marker-based and markerless applications
+* Work with the main machine learning algorithms in OpenCV
+* Explore the deep learning Python libraries and OpenCV deep learning capabilities
+* Create computer vision and deep learning web applications
+
 ## Code Testing Specifications
 *Mastering OpenCV 4 with Python* requires some installed packages, which you can see next.
 
