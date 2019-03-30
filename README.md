@@ -6,8 +6,10 @@ This is the code repository for [Mastering OpenCV 4 with Python](https://www.pac
 [Mastering OpenCV 4 with Python](https://www.packtpub.com/application-development/mastering-opencv-4-python): A practical guide covering topics from image processing, augmented reality to deep learning with OpenCV 4 and Python 3.7
 
 ### Book Details
-* ISBN 139781789344912
-* Paperback 532 pages
+* ISBN: 139781789344912
+* Paperback: 532 pages
+* Author: [Alberto Fernández Villán](https://www.linkedin.com/in/albertofernandezvillan/)
+* Date of publication: March 2019
 
 ![Cover_book](MO4WP_Cover.png)
 
