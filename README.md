@@ -163,19 +163,19 @@ We also provide a PDF file that has color images of the screenshots/diagrams use
 
 * Mastering OpenCV 4 - Third Edition [[Packt]](https://www.packtpub.com/application-development/mastering-opencv-4-third-edition?utm_source=github&utm_medium=repository&utm_campaign=9781789533576 ) [[Amazon]](https://www.amazon.com/dp/1789533570)
 
-* OpenCV Computer Vision with Python [[Packt]] (https://www.packtpub.com/application-development/opencv-computer-vision-python)  [[Amazon]] (https://www.amazon.com/dp/1782163921)
+* OpenCV Computer Vision with Python [[Packt]](https://www.packtpub.com/application-development/opencv-computer-vision-python)  [[Amazon]](https://www.amazon.com/dp/1782163921)
 
-* OpenCV: Computer Vision Projects with Python [[Packt]] (https://www.packtpub.com/application-development/opencv-computer-vision-projects-python) [[Amazon]] (https://www.amazon.com/dp/1787125491)
+* OpenCV: Computer Vision Projects with Python [[Packt]](https://www.packtpub.com/application-development/opencv-computer-vision-projects-python) [[Amazon]](https://www.amazon.com/dp/1787125491)
 
-* Augmented Reality for Developers [[Packt]] (https://www.packtpub.com/web-development/augmented-reality-developers) [[Amazon]] (https://www.amazon.com/dp/1787286436)
+* Augmented Reality for Developers [[Packt]](https://www.packtpub.com/web-development/augmented-reality-developers) [[Amazon]](https://www.amazon.com/dp/1787286436)
 
-* Deep Learning with Python and OpenCV [[Packt]] (https://www.packtpub.com/big-data-and-business-intelligence/deep-learning-python-and-opencv)  [[Amazon]] (https://www.amazon.com/dp/1788627326)
+* Deep Learning with Python and OpenCV [[Packt]](https://www.packtpub.com/big-data-and-business-intelligence/deep-learning-python-and-opencv)  [[Amazon]](https://www.amazon.com/dp/1788627326)
 
-* Deep Learning with Keras [[Packt]] (https://www.packtpub.com/big-data-and-business-intelligence/deep-learning-keras)  [[Amazon]] (https://www.amazon.com/dp/1787128423)
+* Deep Learning with Keras [[Packt]](https://www.packtpub.com/big-data-and-business-intelligence/deep-learning-keras)  [[Amazon]](https://www.amazon.com/dp/1787128423)
 
-* Getting Started with TensorFlow  [[Packt]] (https://www.packtpub.com/big-data-and-business-intelligence/getting-started-tensorflow)  [[Amazon]] (https://www.amazon.com/dp/1786468573)
+* Getting Started with TensorFlow  [[Packt]](https://www.packtpub.com/big-data-and-business-intelligence/getting-started-tensorflow)  [[Amazon]](https://www.amazon.com/dp/1786468573)
 
-* Mastering Flask Web Development - Second Edition [[Packt]] (https://www.packtpub.com/web-development/mastering-flask-web-development-second-edition)  [[Amazon]] (https://www.amazon.com/dp/1788995406)
+* Mastering Flask Web Development - Second Edition [[Packt]](https://www.packtpub.com/web-development/mastering-flask-web-development-second-edition)  [[Amazon]](https://www.amazon.com/dp/1788995406)
 
 
 ## Get to Know the Author
