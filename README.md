@@ -1,29 +1,37 @@
-# Mastering-OpenCV-4-with-Python
+# Mastering OpenCV 4 with Python
 
-This is the code repository for [Mastering OpenCV 4 with Python](https://www.packtpub.com/application-development/mastering-opencv-4-python), published by [Packt Publishing](https://www.packtpub.com/). It contains all the supporting project files necessary to work through the book from the first Chapter to the last one.
+<a href="https://www.packtpub.com/application-development/mastering-opencv-4-python?utm_source=github&utm_medium=repository&utm_campaign=9781789344912 "><img src="https://dz13w8afd47il.cloudfront.net/sites/default/files/imagecache/ppv4_main_book_cover/B11321_MockupCover.png" alt="Mastering OpenCV 4 with Python" height="256px" align="right"></a>
 
-## Overview
-[Mastering OpenCV 4 with Python](https://www.packtpub.com/application-development/mastering-opencv-4-python): A practical guide covering topics from image processing, augmented reality to deep learning with OpenCV 4 and Python 3.7
+This is the code repository for [Mastering OpenCV 4 with Python](https://www.packtpub.com/application-development/mastering-opencv-4-python?utm_source=github&utm_medium=repository&utm_campaign=9781789344912 ), published by Packt.
 
-### Book Details
-* ISBN: 139781789344912
-* Paperback: 532 pages
-* Author: [Alberto Fernández Villán](https://www.linkedin.com/in/albertofernandezvillan/)
-* Date of publication: March 2019
+**A practical guide covering topics from image processing, augmented reality to deep learning with OpenCV 4 and Python 3.7**
 
-![Cover_book](MO4WP_Cover.png)
+## What is this book about?
+OpenCV is considered to be one of the best Open Source Computer Vision and machine learning software libraries. It helps developers build complete projects on image processing, motion detection, and image segmentation. OpenCV for Python enables you to run computer vision algorithms smoothly in real time, combining the best of the OpenCV C++ API and the Python language.
 
-Create advanced applications with Python and OpenCV, exploring the potential of facial recognition, machine learning, deep learning, web computing and augmented reality.
+This book covers the following exciting features:
+* Handle files and images, and explore various image processing techniques 
+* Explore image transformations like translation, resizing, and cropping 
+* Gain insights into building histograms 
+* Brush up on contour detection, filtering, and drawing 
+* Work with augmented reality and 3D visualization frameworks 
+* Work with machine learning, deep learning, and neural network algorithms 
 
-### What You Will Learn
-* Handle files and images, and explore various image processing techniques
-* Explore image transformations, including translation, resizing, and cropping
-* Gain insights into building histograms
-* Brush up on contour detection, filtering, and drawing
-* Work with Augmented Reality to build marker-based and markerless applications
-* Work with the main machine learning algorithms in OpenCV
-* Explore the deep learning Python libraries and OpenCV deep learning capabilities
-* Create computer vision and deep learning web applications
+If you feel this book is for you, get your [copy](https://www.amazon.com/dp/1789344913) today!
+
+<a href="https://www.packtpub.com/?utm_source=github&utm_medium=banner&utm_campaign=GitHubBanner"><img src="https://raw.githubusercontent.com/PacktPublishing/GitHub/master/GitHub.png" 
+alt="https://www.packtpub.com/" border="5" /></a>
+
+## Instructions and Navigations
+All of the code is organized into folders. For example, Chapter02.
+
+The code will look like the following:
+```
+channels = cv2.split(img)
+eq_channels = []
+for ch in channels:
+eq_channels.append(cv2.equalizeHist(ch))
+```
 
 ## Code Testing Specifications
 *Mastering OpenCV 4 with Python* requires some installed packages, which you can see next.
@@ -137,19 +145,45 @@ It should be noted that flask requires: ``Werkzeug click itsdangerous MarkupSafe
 
 ``Jinja2-2.10 MarkupSafe-1.1.1 Werkzeug-0.14.1 click-7.0 itsdangerous-1.1.0`` have been installed when installing ``flask==1.0.2``
 
-## Hardware Specifications
-The hardware specifications are as follows:
+**Following is what you need for this book:**
+This book is designed for computer vision developers, engineers, and researchers who want to develop modern computer vision applications. Basic experience of OpenCV and Python programming is a must.
 
-* Either 32-bit or 64-bit architecture
-* 2+ GHz CPU
-* 4 GB RAM
-* At least 10 GB of hard disk space available
+With the following software and hardware list you can run all code files present in the book (Chapter 1-13).
+### Software and Hardware List
+| Chapter | Software required | Hardware required                        |
+| --------| ----------------- | ------------------------------------------------------------------------------------------------------- |
+| 1-13    | Python            | Either 32-bit or 64-bit architecture, 2+ GHz CPU, 4 GB RAM, At least 10 GB of hard disk space available |
+| 1-13    | OpenCV            | Either 32-bit or 64-bit architecture, 2+ GHz CPU, 4 GB RAM, At least 10 GB of hard disk space available |
+| 1-13    | PyCharm           | Either 32-bit or 64-bit architecture, 2+ GHz CPU, 4 GB RAM, At least 10 GB of hard disk space available |
 
-## Related books & products
-* [OpenCV Computer Vision with Python](https://www.packtpub.com/application-development/opencv-computer-vision-python)
-* [OpenCV: Computer Vision Projects with Python](https://www.packtpub.com/application-development/opencv-computer-vision-projects-python)
-* [Augmented Reality for Developers](https://www.packtpub.com/web-development/augmented-reality-developers)
-* [Deep Learning with Python and OpenCV](https://www.packtpub.com/big-data-and-business-intelligence/deep-learning-python-and-opencv)
-* [Deep Learning with Keras](https://www.packtpub.com/big-data-and-business-intelligence/deep-learning-keras)
-* [Getting Started with TensorFlow](https://www.packtpub.com/big-data-and-business-intelligence/getting-started-tensorflow)
-* [Mastering Flask Web Development - Second Edition](https://www.packtpub.com/web-development/mastering-flask-web-development-second-edition)
+We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it](https://www.packtpub.com/sites/default/files/downloads/9781789344912_ColorImages.pdf).
+
+### Related products
+* Learn OpenCV 4 By Building Projects - Second Edition [[Packt]](https://www.packtpub.com/application-development/learn-opencv-4-building-projects-second-edition?utm_source=github&utm_medium=repository&utm_campaign=9781789341225 ) [[Amazon]](https://www.amazon.com/dp/1789341221)
+
+* Mastering OpenCV 4 - Third Edition [[Packt]](https://www.packtpub.com/application-development/mastering-opencv-4-third-edition?utm_source=github&utm_medium=repository&utm_campaign=9781789533576 ) [[Amazon]](https://www.amazon.com/dp/1789533570)
+
+* OpenCV Computer Vision with Python [[Packt]] (https://www.packtpub.com/application-development/opencv-computer-vision-python)  [[Amazon]] (https://www.amazon.com/dp/1782163921)
+
+* OpenCV: Computer Vision Projects with Python [[Packt]] (https://www.packtpub.com/application-development/opencv-computer-vision-projects-python) [[Amazon]] (https://www.amazon.com/dp/1787125491)
+
+* Augmented Reality for Developers [[Packt]] (https://www.packtpub.com/web-development/augmented-reality-developers) [[Amazon]] (https://www.amazon.com/dp/1787286436)
+
+* Deep Learning with Python and OpenCV [[Packt]] (https://www.packtpub.com/big-data-and-business-intelligence/deep-learning-python-and-opencv)  [[Amazon]] (https://www.amazon.com/dp/1788627326)
+
+* Deep Learning with Keras [[Packt]] (https://www.packtpub.com/big-data-and-business-intelligence/deep-learning-keras)  [[Amazon]] (https://www.amazon.com/dp/1787128423)
+
+* Getting Started with TensorFlow  [[Packt]] (https://www.packtpub.com/big-data-and-business-intelligence/getting-started-tensorflow)  [[Amazon]] (https://www.amazon.com/dp/1786468573)
+
+* Mastering Flask Web Development - Second Edition [[Packt]] (https://www.packtpub.com/web-development/mastering-flask-web-development-second-edition)  [[Amazon]] (https://www.amazon.com/dp/1788995406)
+
+
+## Get to Know the Author
+**Alberto Fernández Villán**
+is a software engineer with more than 12 years of experience in developing innovative solutions. In the last couple of years, he has been working in various projects related to monitoring systems for industrial plants, applying both Internet of Things (IoT) and big data technologies. He has a Ph.D. in computer vision (2017), a deep learning certification (2018), and several publications in connection with computer vision and machine learning in journals such as Machine Vision and Applications, IEEE Transactions on Industrial Informatics, Sensors, IEEE Transactions on Industry Applications, IEEE Latin America Transactions, and more. As of 2013, he is a registered and active user (albertofernandez) on the Q&A OpenCV forum.
+
+
+### Suggestions and Feedback
+[Click here](https://docs.google.com/forms/d/e/1FAIpQLSdy7dATC6QmEL81FIUuymZ0Wy9vH1jHkvpY57OiMeKGqib_Ow/viewform) if you have any feedback or suggestions.
+
+
