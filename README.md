@@ -30,7 +30,7 @@ The code will look like the following:
 channels = cv2.split(img)
 eq_channels = []
 for ch in channels:
-eq_channels.append(cv2.equalizeHist(ch))
+    eq_channels.append(cv2.equalizeHist(ch))
 ```
 
 ## Code Testing Specifications
