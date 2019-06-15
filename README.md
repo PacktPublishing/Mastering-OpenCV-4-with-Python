@@ -158,6 +158,21 @@ With the following software and hardware list you can run all code files present
 
 We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it](https://www.packtpub.com/sites/default/files/downloads/9781789344912_ColorImages.pdf).
 
+### Referencing
+If you use the code samples or book content in your study/work or want to cite the book, please use:
+
+Fernández Villán Alberto. Mastering OpenCV 4 with Python. Packt Publishing Ltd, 2019.
+
+```bibtex
+@book{fernandez2019mastering,
+ author = {Fern{\'a}ndez, Alberto},
+ title = {Mastering OpenCV 4 with Python},
+ year = {2019},
+ isbn = {978-1789344912},
+ publisher = {Packt Publishing Ltd},
+}
+```
+
 ### Related products
 * Learn OpenCV 4 By Building Projects - Second Edition [[Packt]](https://www.packtpub.com/application-development/learn-opencv-4-building-projects-second-edition?utm_source=github&utm_medium=repository&utm_campaign=9781789341225 ) [[Amazon]](https://www.amazon.com/dp/1789341221)
 
