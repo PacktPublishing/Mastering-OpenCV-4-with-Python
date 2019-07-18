@@ -4,7 +4,7 @@ Test script to play with OpenCV and Python
 
 import cv2
 
-# use '$ python -m pydoc -w test' to generate documentation
+# use '$ python -m pydoc -w helloopencv' to generate documentation
 
 
 def show_message():
