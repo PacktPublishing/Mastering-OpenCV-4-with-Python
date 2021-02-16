@@ -1,5 +1,3 @@
-*If you have read this book, please leave a review on [Amazon.com](https://www.amazon.com/gp/product/1789344913).     Potential readers can then use your unbiased opinion to help them make purchase decisions. Thank you.*
-
 # Mastering OpenCV 4 with Python
 
 <a href="https://www.packtpub.com/application-development/mastering-opencv-4-python?utm_source=github&utm_medium=repository&utm_campaign=9781789344912 "><img src="https://prod.packtpub.com/media/catalog/product/cache/a22c7d190d97ca25f5f1089471ab8502/9/7/978178934_cover.png" alt="Mastering OpenCV 4 with Python" height="256px" align="right"></a>
