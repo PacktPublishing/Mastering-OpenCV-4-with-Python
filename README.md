@@ -3,9 +3,11 @@
 
 # Mastering OpenCV 4 with Python
 
-<a href="https://www.packtpub.com/application-development/mastering-opencv-4-python?utm_source=github&utm_medium=repository&utm_campaign=9781789344912 "><img src="https://prod.packtpub.com/media/catalog/product/cache/a22c7d190d97ca25f5f1089471ab8502/9/7/978178934_cover.png" alt="Mastering OpenCV 4 with Python" height="256px" align="right"></a>
+
 
 This is the code repository for [Mastering OpenCV 4 with Python](https://www.packtpub.com/application-development/mastering-opencv-4-python?utm_source=github&utm_medium=repository&utm_campaign=9781789344912 ), published by Packt.
+
+<img src="https://github.com/PacktPublishing/Mastering-OpenCV-4-with-Python/blob/master/MO4WP_Cover.png" alt="Mastering OpenCV 4 with Python" height="256px" align="center"></a>
 
 **A practical guide covering topics from image processing, augmented reality to deep learning with OpenCV 4 and Python 3.7**
 
